@@ -1,0 +1,400 @@
+:root {
+    --color-primary: #FD6E0A;
+    --color-secondary: #FFF8F3;
+    --color-dark-01: #181818;
+    --color-dark-02: #474747;
+    --color-dark-03: #757575;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-image: url("images/developer.png"), url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50px center, bottom right;
+    background-color: var(--color-secondary);
+}
+
+.nav-title {
+    color: var(--color-dark-01);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: var(--color-primary);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 230px 0px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: var(--color-dark-02);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li a button {
+    border-radius: 5px;
+    background: var(--color-primary);
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 47px 38px 0px 230px;
+}
+
+header section .header-section-text {
+    max-width: 585px;
+}
+
+header section h3 {
+    color: var(--color-dark-02);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+header section h1 {
+    font-size: 85px;
+    font-weight: 700;
+    color: var(--color-dark-01);
+    margin-bottom: 20px;
+}
+
+header section p {
+    color: var(--color-Dark-03);
+    font-size: 18px;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 30px;
+}
+
+header section .down-cv {
+    border-radius: 5px;
+    background: var(--color-primary);
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+header section .contact {
+    border-radius: 5px;
+    background: white;
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+}
+
+.down-cv i,
+.contact i,
+.down-cv2 i {
+    margin-right: 10px;
+}
+
+main .about-me {
+    padding: 130px 230px;
+    margin: 0px auto;
+}
+
+main .about-me .about-me-container {
+    padding: 131px 156px;
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+}
+
+main .about-me .about-me-text {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main .about-me .about-me-text h2 {
+    color: var(--color-dark-01);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+main .about-me .about-me-text>p {
+    color: var(--color-dark-03);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+    /* 166.667% */
+}
+
+main .about-me .about-me-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main .about-me .about-me-info div p {
+    color: var(--color-dark-03);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+main .about-me .about-me-info div h3 {
+    color: var(--color-dark-02);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.what-i-do {
+    padding: 0px 230px 130px;
+}
+
+.what-i-do .what-i-do-intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.what-i-do .what-i-do-intro h2 {
+    color: var(--color-dark-01);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.what-i-do .what-i-do-intro p {
+    color: var(--color-dark-03);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding: 0px 115px;
+}
+
+.what-i-do .what-i-do-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.what-i-do .what-i-do-card {
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.what-i-do .what-i-do-card img {
+    margin-bottom: 30px;
+    height: 40px;
+}
+
+.what-i-do .what-i-do-card h3 {
+    color: var(--color-dark-01);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.what-i-do .what-i-do-card p {
+    color: var(--color-dark-03);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 166.667% */
+}
+
+.resume>h2 {
+    color: var(--color-dark-01);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.resume .resume-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 113px 230px 0px;
+}
+
+.resume .resume-container h3 {
+    color: var(--color-dark-02);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume .resume-container h4 {
+    color: var(--color-dark-02);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume .resume-container h5 {
+    color: var(--color-dark-03);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume .resume-container p {
+    color: var(--color-dark-03);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 70px;
+    /* 166.667% */
+}
+
+.resume hr {
+    margin: 30px 0px;
+    width: 95%;
+    background-color: #D1D1D1;
+}
+
+.resume .down-cv2 {
+    text-align: center;
+}
+
+.resume .down-cv2 button {
+    border-radius: 5px;
+    background: var(--color-primary);
+    width: 200px;
+    height: 64px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin: 50px 0 113px;
+    cursor: pointer;
+}
+
+footer {
+    background: var(--color-secondary);
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.connect h2 {
+    color: var(--color-dark-01);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.connect p {
+    color: var(--color-dark-03);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+    max-width: 562px;
+    /* 166.667% */
+}
+
+.connect .icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.message h2 {
+    color: var(--color-dark-01);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.message form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.message form input {
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    border: none;
+    padding: 30px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.message form textarea {
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    padding: 30px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.message form button {
+    border-radius: 5px;
+    background: var(--color-primary);
+    width: 150px;
+    height: 64px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
