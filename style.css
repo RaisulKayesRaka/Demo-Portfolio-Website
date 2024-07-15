@@ -424,3 +424,42 @@ footer {
         padding: 130px 170px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+
+    nav {
+        padding: 50px 100px 0px;
+    }
+
+    header {
+        background-position: 10px center, bottom right;
+    }
+
+    header section {
+        padding: 47px 38px 0px 100px;
+    }
+
+    .down-cv-btn {
+        margin-bottom: 25px;
+    }
+
+    .about-me {
+        padding: 130px 100px;
+    }
+
+    .about-me-container {
+        padding: 100px 117px;
+    }
+
+    .what-i-do {
+        padding: 0px 100px 130px;
+    }
+
+    .resume-container {
+        padding: 113px 100px 0px;
+    }
+
+    footer {
+        padding: 130px 100px;
+    }
+}
